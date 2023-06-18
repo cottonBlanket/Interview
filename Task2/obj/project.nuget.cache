@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7kd8zIzYFy+dyo2Se+KEQSaSB5kaWfIy7q7kEk7J86n8RcNamoenrl0Vl38HZyUbLNp6XaPkbzWxZPKHdvGXYg==",
+  "dgSpecHash": "FE2h2krYGTOUz4TN/13w35lJuwUWlVgFAxCkMgSTZahj34w0dVk0hyRcaLxalBM6egB2EFbKv9cHvdHHHhjyIw==",
   "success": true,
-  "projectFilePath": "/Users/leonid/RiderProjects/Interview/Task2/Task2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\git\\Interview\\Task2\\Task2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
