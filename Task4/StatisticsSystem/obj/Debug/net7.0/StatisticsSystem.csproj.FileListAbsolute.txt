@@ -1,0 +1,15 @@
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.exe
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.deps.json
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.runtimeconfig.json
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.dll
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.pdb
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.csproj.AssemblyReference.cache
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.AssemblyInfoInputs.cache
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.AssemblyInfo.cs
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.csproj.CoreCompileInputs.cache
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.dll
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\refint\StatisticsSystem.dll
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.pdb
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.genruntimeconfig.cache
+D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\ref\StatisticsSystem.dll
