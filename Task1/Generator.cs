@@ -1,7 +1,15 @@
 ﻿namespace Task1;
 
+/// <summary>
+/// часть класса, отвечающего за генерацию, содержащего реализацию метода генерации
+/// </summary>
 public partial class Generator
 {
+    /// <summary>
+    /// генерирует заданное количество простых чисел
+    /// </summary>
+    /// <param name="i">количество простых чисел, которое необходимо сгенерировать</param>
+    /// <returns>коллекция простых чисел</returns>
     public IEnumerable<int> MakeNumbers(int i)
     {
         List<int> list = new();
