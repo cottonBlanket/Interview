@@ -1,0 +1,14 @@
+﻿@model StatisticApi.Controllers.dto.request.KeyValuePairRequest;
+@{
+    Layout = "Index";
+}
+<h2>Добавить значения</h2>
+<form method="post">
+    <div class="text_input">
+        <input type="text" value="ключ" asp-for="@Model.Key" name="Key" id="Key" class="input"/>
+        <input type="text" value="значения через запятую без пробелов" asp-for="@Model.Values" name="Values" id="Values" class="input"/>
+    </div>
+    <div class="form-button">
+        <input type="submit" value="OK" class="button"/>
+    </div>
+</form>

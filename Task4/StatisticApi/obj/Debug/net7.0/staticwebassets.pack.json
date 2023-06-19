@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\git\\Interview\\Task4\\StatisticApi\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.StatisticApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.StatisticApi.props",
+      "PackagePath": "build\\StatisticApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StatisticApi.props",
+      "PackagePath": "buildMultiTargeting\\StatisticApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.StatisticApi.props",
+      "PackagePath": "buildTransitive\\StatisticApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

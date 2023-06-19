@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Система статистики</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Calibri";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            background-color: antiquewhite;
+            text-align: center;
+            color: #212529;
+        }
+        
+        h1 {
+        
+        }
+        
+        .nav-ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        }
+        .nav-ul-li {
+        padding: 10px 20px;
+        margin: 30px;
+        }
+        .nav-ul-li a {
+        text-decoration: none;
+        }
+        
+        .input {
+          display: block;
+          width: 220px;
+          height: 20px;
+          padding: 5px;
+          margin: 20px;
+          font-family: inherit;
+          background-color: blanchedalmond;
+          background-clip: padding-box;
+          border: 1px solid #bdbdbd;
+          border-radius: 7px;
+          }
+          
+          .text_input {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+          
+          .button {
+            background-color: blanchedalmond;
+            border: 1px solid #bdbdbd;
+            padding: 10px;
+            border-radius: 7px;
+            transition: background-color .15s ease-in-out;
+          }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-ul">
+            <li class="nav-ul-li"><a href="/statistic/home">Главная</a></li>
+            <li class="nav-ul-li"><a href="/statistic/append">Добавить значения</a></li>
+            <li class="nav-ul-li"><a href="/statistic/clear">Очистка</a></li>
+            <li class="nav-ul-li"><a href="/statistic/calculate">Подсчет</a></li>
+        </ul>
+    </nav>
+</header>
+<div>
+    <h1>Система статистики</h1>
+    @RenderBody()
+</div>
+</body>
+</html>

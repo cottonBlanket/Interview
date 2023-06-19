@@ -19,4 +19,4 @@ D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\System.Security.Cryptog
 D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
 D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
 D:\git\Interview\Task4\StatisticsSystem\obj\Debug\net7.0\StatisticsSystem.csproj.CopyComplete
-D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\StatisticsSystem.dll.config
+D:\git\Interview\Task4\StatisticsSystem\bin\Debug\net7.0\Newtonsoft.Json.dll

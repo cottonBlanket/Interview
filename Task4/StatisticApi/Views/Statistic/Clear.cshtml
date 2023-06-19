@@ -1,0 +1,13 @@
+﻿@model StatisticApi.Controllers.dto.request.KeyRequest;
+@{
+    Layout = "Index";
+}
+<h2>Страница очистки</h2>
+<form method="post">
+    <div class="text_input">
+        <input type="text" value="ключ" asp-for="@Model.Key" name="Key" id="Key" class="input"/>
+    </div>
+    <div class="form-button">
+        <input type="submit" value="Очистить" class="button"/>
+        </div>
+    </form>

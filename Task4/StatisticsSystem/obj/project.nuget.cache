@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PNx/OekIeZxnK9sTc2h8XGgMvMVqyAohQjos4WAPVHq0iYPQxzvc3vDSlYtYXVLDNVIjKEyq7TiIPdJIjJOt4g==",
+  "dgSpecHash": "2ZTlBPW8HjgVALcI8Hz0TRLDdPHJdoE29CfYHnCJbfKXBi4KH32L+ygi8lSvM6nQONcA081DShzyL6qrjKYVEA==",
   "success": true,
   "projectFilePath": "D:\\git\\Interview\\Task4\\StatisticsSystem\\StatisticsSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-preview.5.23280.8\\system.configuration.configurationmanager.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-preview.5.23280.8\\system.diagnostics.eventlog.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-preview.5.23280.8\\system.security.cryptography.protecteddata.8.0.0-preview.5.23280.8.nupkg.sha512"

@@ -3,9 +3,9 @@
 namespace Task4.Statistics;
 
 /// <summary>
-/// сервис для обработки получаемой статистики
+/// сервис для обработки статистики полученной из консоли системы стиастики
 /// </summary>
-public class StatisticManager: IStatisticManager
+public class ConsoleStatisticManager: IConsoleStatisticManager
 {
     /// <summary>
     /// поле для работы с хранилищем статистических данных
@@ -15,7 +15,7 @@ public class StatisticManager: IStatisticManager
     /// <summary>
     /// конструктор без аргументов, инициализирующий поля
     /// </summary>
-    public StatisticManager()
+    public ConsoleStatisticManager()
     {
         _statisticData = new StatisticsData();
     }
@@ -23,9 +23,10 @@ public class StatisticManager: IStatisticManager
     /// <summary>
     /// обрабатывает входную команду, получает необходимое действие и ключ,
     /// выполняет соответсвующую команду для статистики по полученному ключу
+    /// печатает в консоль о проделанной работе
     /// </summary>
     /// <param name="command">входная команда</param>
-    public void Execute(string? command)
+    public async Task Execute(string? command)
     {
         if(command == "")
             return;
@@ -33,21 +34,23 @@ public class StatisticManager: IStatisticManager
         if(!IsCommandValid(commandArray))
             return;
         var key = commandArray[1];
+        string response;
         switch (commandArray[0])
         {
             case "append":
-                _statisticData.Append(key, string.Join(' ', commandArray[2..]));
+                response = await _statisticData.Append(key, string.Join(' ', commandArray[2..]));
                 break;
             case "clear":
-                _statisticData.Clear(key);
+                response = await _statisticData.Clear(key);
                 break;
             case "stat":
-                _statisticData.Stat(key);
+                response = await _statisticData.Stat(key);
                 break;
             default:
-                Console.WriteLine("{0} - не является внутренней командой", commandArray[0]);
+                response = $"{commandArray[0]} - не является внутренней командой";
                 break;
         }
+        Console.WriteLine(response);
     }
 
     /// <summary>
@@ -62,7 +65,6 @@ public class StatisticManager: IStatisticManager
             Console.WriteLine("Введена не корректная строка!");
             return false;
         }
-
         return true;
     }
 }

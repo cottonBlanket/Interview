@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "oR9SKCNg84RNKjZbeFGohl+RFrfwZWkZUeYZgF/AztE=",
+  "Source": "StatisticApi",
+  "BasePath": "_content/StatisticApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StatisticApi\\wwwroot",
+      "Source": "StatisticApi",
+      "ContentRoot": "D:\\git\\Interview\\Task4\\StatisticApi\\wwwroot\\",
+      "BasePath": "_content/StatisticApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

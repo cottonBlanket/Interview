@@ -1,29 +1,29 @@
 ﻿namespace Task4.Statistics.Interfaces;
 
 /// <summary>
-/// интерфейс класса, хранящего собранные данные статистики
+/// интерфейс для работы с хранилищем статистики
 /// </summary>
 public interface IStatisticData
 {
     /// <summary>
-    /// добавляет новые значения статистики по ключу
+    /// добавляет в хранилище новые значения статистики по ключу
     /// </summary>
     /// <param name="key">ключ</param>
     /// <param name="values">новые значения</param>
-    /// <returns>асинхронное действие</returns>
-    Task Append(string key, string values);
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    Task<string> Append(string key, string values);
     
     /// <summary>
-    /// очищает данные статистики по ключу
+    /// очищает из хранилища данные статистики по ключу
     /// </summary>
     /// <param name="key">ключ</param>
-    /// <returns>асинхронное действие</returns>
-    Task Clear(string key);
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    Task<string> Clear(string key);
     
     /// <summary>
-    /// отдает статистику по ключу
+    /// отдает подсчитанную статистику по ключу
     /// </summary>
     /// <param name="key">ключ</param>
-    /// <returns>асинхронное действие</returns>
-    Task Stat(string key);
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    Task<string> Stat(string key);
 }

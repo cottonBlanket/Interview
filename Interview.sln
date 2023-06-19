@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{435823A4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsSystem", "Task4\StatisticsSystem\StatisticsSystem.csproj", "{1FBB3D47-8D6B-4980-9373-C9B7097BC5EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticApi", "Task4\StatisticApi\StatisticApi.csproj", "{EDEFE738-A9CB-4F86-84CF-DC553581F5E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +30,13 @@ Global
 		{1FBB3D47-8D6B-4980-9373-C9B7097BC5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBB3D47-8D6B-4980-9373-C9B7097BC5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBB3D47-8D6B-4980-9373-C9B7097BC5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEFE738-A9CB-4F86-84CF-DC553581F5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEFE738-A9CB-4F86-84CF-DC553581F5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEFE738-A9CB-4F86-84CF-DC553581F5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEFE738-A9CB-4F86-84CF-DC553581F5E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1FBB3D47-8D6B-4980-9373-C9B7097BC5EA} = {435823A4-0689-4B90-85D8-5426D60C251D}
+		{EDEFE738-A9CB-4F86-84CF-DC553581F5E0} = {435823A4-0689-4B90-85D8-5426D60C251D}
 	EndGlobalSection
 EndGlobal

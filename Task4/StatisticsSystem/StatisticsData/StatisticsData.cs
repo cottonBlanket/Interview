@@ -1,13 +1,11 @@
-﻿using System.Threading.Channels;
-using System.Collections.Specialized;
-using System.Configuration;
-using System.Net.Mime;
+﻿using System.Configuration;
+using System.Text;
 using Task4.Statistics.Interfaces;
 
 namespace Task4.Statistics;
 
 /// <summary>
-/// класс, отвечающий за хранение статистических данных
+/// класс, реализующий метода для работы с хранилищем статистики
 /// </summary>
 public class StatisticsData: IStatisticData
 {
@@ -15,7 +13,7 @@ public class StatisticsData: IStatisticData
     /// путь до файла с данными
     /// </summary>
     private readonly string _data;
-    
+
     /// <summary>
     /// конструктор класса
     /// полю _data присваивает значение из конфигурации приложения по ключу pathToData
@@ -34,20 +32,23 @@ public class StatisticsData: IStatisticData
     /// <summary>
     /// считывает файл с данными, добавляет новые значения по входному ключу
     /// при отсутствии ключа добавляет его
-    /// печатает в консоль соотвествующие сообщения
+    /// возвращает сообщение о проделанной работе
     /// </summary>
     /// <param name="key">ключ</param>
     /// <param name="values">новые значения</param>
-    /// <returns>асинхронное действие</returns>
-    public async Task Append(string key, string values)
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    public async Task<string> Append(string key, string values)
     {
+        if (!IsValidValues(values))
+            return "Введены не корректные данные!";
+        var response = new StringBuilder();
         var rows = await GetRowsAsync();
         var keys = rows[0].Split(' ').ToList();
         if (!keys.Contains(key))
         {
             rows[0] = $"{rows[0]} {key}";
             rows.Add(values);
-            Console.WriteLine("Ключ \"{0}\" успешно добавлен!", key);
+            response.Append($"Ключ \"{key}\" успешно добавлен!");
         }
         else
         {
@@ -58,53 +59,48 @@ public class StatisticsData: IStatisticData
         await WriteRowsToFileAsync(rows);
         
         if (values != "")
-            Console.WriteLine("Новые значения по ключу \"{0}\" успешно добавлены!", key);
+            response.Append($"\nНовые значения по ключу \"{key}\" успешно добавлены!");
+        return response.ToString();
     }
 
     /// <summary>
-    /// считывает данные из файла,
-    /// удаляет значения по входному ключу и сообщает об успешном удалении в консоли
-    /// при отсутствии ключа сообщает об этом в консоли
+    /// считывает данные из файла, удаляет значения по входному ключу и возвращает сообщение об успещном удалении
+    /// при отсутствии ключа возвращает сообщение об этом
     /// </summary>
     /// <param name="key">ключ</param>
-    /// <returns>асинхронное действие</returns>
-    public async Task Clear(string key)
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    public async Task<string> Clear(string key)
     {
         var rows = await GetRowsAsync();
         var keys = rows[0].Split(' ').ToList();
         
         if (!keys.Contains(key))
-            Console.WriteLine("Ключ \"{0}\" не найден!", key);
+            return $"Ключ \"{key}\" не найден!";
         var keyIndex = keys.IndexOf(key);
         rows[keyIndex] = "";
         await WriteRowsToFileAsync(rows);
-        Console.WriteLine("Данные по ключу \"{0}\" успешно удалены!", key);
-
-        }
+        return $"Данные по ключу \"{key}\" успешно удалены!";
+    }
 
     /// <summary>
     /// считывает файл с данными,
-    /// печатает в консоль среднее всех значений по входному ключу 
-    /// при отсутствии данных или ключа печатает соответствующее сообщение
+    /// возвращает сообщение с  подсчитанными статистическими данными
+    /// при отсутствии данных или ключа возвращает соответствубщее собщение
     /// </summary>
     /// <param name="key">ключ</param>
-    /// <returns>асинхронное действие</returns>
-    public async Task Stat(string key)
+    /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
+    public async Task<string> Stat(string key)
     {
         var rows = await GetRowsAsync();
         var keys = rows[0].Split(' ').ToList();
         if (!keys.Contains(key))
-            Console.WriteLine("Ключ \"{0}\" не найден!", key);
+            return $"Ключ \"{key}\" не найден!";
         
         var keyIndex = keys.IndexOf(key);
         var values = rows[keyIndex];
         if (values != "")
-        {
-            Console.WriteLine(values.TrimEnd().Split(' ').Select(int.Parse).Average());
-            return;
-        }
-        Console.WriteLine("Данных по ключу не найдено!");
-            
+            return values.Trim().Split(' ').Select(int.Parse).Average().ToString();
+        return "Данных по ключу не найдено!";
     }
 
     /// <summary>
@@ -143,6 +139,21 @@ public class StatisticsData: IStatisticData
         if (rows.Count == 0)
             await WriteRowsToFileAsync(new[] { "" });
         return true;
-
+    }
+    
+    /// <summary>
+    /// проверяет корректность введенных значений статистики
+    /// </summary>
+    /// <param name="values">значения</param>
+    /// <returns>истина - значения корректны, ложь - значения не корректны</returns>
+    private bool IsValidValues(string values)
+    {
+        var valuesArray = values.Split(' ').Where(x => x != "");
+        foreach (var value in valuesArray)
+        {
+            if (!int.TryParse(value, out var a))
+                return false;
+        }
+        return true;
     }
 }
