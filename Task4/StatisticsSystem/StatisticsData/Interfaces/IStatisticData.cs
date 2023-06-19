@@ -10,17 +10,20 @@ public interface IStatisticData
     /// </summary>
     /// <param name="key">ключ</param>
     /// <param name="values">новые значения</param>
-    void Append(string key, IEnumerable<int> values);
+    /// <returns>асинхронное действие</returns>
+    Task Append(string key, string values);
     
     /// <summary>
     /// очищает данные статистики по ключу
     /// </summary>
     /// <param name="key">ключ</param>
-    void Clear(string key);
+    /// <returns>асинхронное действие</returns>
+    Task Clear(string key);
     
     /// <summary>
     /// отдает статистику по ключу
     /// </summary>
     /// <param name="key">ключ</param>
-    void Stat(string key);
+    /// <returns>асинхронное действие</returns>
+    Task Stat(string key);
 }

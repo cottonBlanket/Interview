@@ -5,5 +5,9 @@
 /// </summary>
 public interface IStatisticManager
 {
+    /// <summary>
+    /// метод обработки статистики
+    /// </summary>
+    /// <param name="input">команда для обработки</param>
     void Execute(string input);
 }

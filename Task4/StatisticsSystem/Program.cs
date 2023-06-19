@@ -1,4 +1,5 @@
-﻿using Task4.Statistics;
+﻿using System.ComponentModel;
+using Task4.Statistics;
 using Task4.Statistics.Interfaces;
 using Console = System.Console;
 
