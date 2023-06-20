@@ -14,7 +14,7 @@ public class StatisticProfile: Profile
     /// </summary>
     public StatisticProfile()
     {
-        CreateMap<KeyValuePairRequest, StatisticDal>()
+        CreateMap<KeyValuePairRequest, Statistic>()
             .ForMember(dst => dst.Key, opt => opt.MapFrom(src => src.Key))
             .ForMember(dst => dst.Values, opt => opt.MapFrom(src => src.Values));
     }

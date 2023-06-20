@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "oR9SKCNg84RNKjZbeFGohl+RFrfwZWkZUeYZgF/AztE=",
+  "Hash": "JPPPquvWXSuCop0KtwX0Ogi61RiDC04W3ehb6bPXHpI=",
   "Source": "StatisticApi",
   "BasePath": "_content/StatisticApi",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj",
+      "Version": 2,
+      "Source": "Dal",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "StatisticApi\\wwwroot",

@@ -61,7 +61,7 @@ public class StatisticController : Controller
     [HttpPost]
     public async Task<IActionResult> Append(KeyValuePairRequest request)
     {
-        var statistic = _mapper.Map<StatisticDal>(request);
+        var statistic = _mapper.Map<Statistic>(request);
         var response = await _statisticManager.Append(statistic);
         return View("Message", new MessageResponse() {Message = response});
     }
