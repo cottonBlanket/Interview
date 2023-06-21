@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xdzGJdszL0F3AxHDiWQllrnUCYJxkykeJKU/ct5Y65TMcIfg3L0Fu0SIGHRggBhR4Y/ElVw8Oa59q19zNHa7bQ==",
+  "dgSpecHash": "ggCmtW3gPf2+LWRuZxrHp/bE3R6ZesZkzXtT7mbzMFyy5tWc0k/Y3QPFKHOmyXpKBHUoDJtoj8Yb7iPNXV/2PA==",
   "success": true,
-  "projectFilePath": "D:\\git\\Interview\\Task1\\Task1.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\Interview\\Task1\\Task1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danil\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512"
   ],
   "logs": []
 }

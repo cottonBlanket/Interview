@@ -14,7 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Statistics\Api\Interfaces" />
+      <ProjectReference Include="..\Dal\Dal.csproj" />
+      <ProjectReference Include="..\Logic\Logic.csproj" />
     </ItemGroup>
 
 </Project>

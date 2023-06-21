@@ -3,7 +3,7 @@
 namespace Task4.Statistics.Api;
 
 /// <summary>
-/// интерфейс обработчика статистики полученной с сайта системы статистики
+/// интерфейс обработчика статистики полученной
 /// </summary>
 public interface IStatisticManager
 {

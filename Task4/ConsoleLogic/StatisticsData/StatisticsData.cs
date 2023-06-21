@@ -1,4 +1,4 @@
-﻿using System.Configuration;
+﻿/*using System.Configuration;
 using System.Text;
 using Task4.Statistics.Interfaces;
 
@@ -156,4 +156,4 @@ public class StatisticsData: IStatisticData
         }
         return true;
     }
-}
+}*/

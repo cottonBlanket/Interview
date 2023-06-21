@@ -10,13 +10,29 @@ namespace Task4;
 public class Program
 {
     /// <summary>
-    /// входная точка приложения
-    /// запускает вечный цикл для работы консоли
+    /// обработчик статистики, полученной с консоли
     /// </summary>
+    private readonly IConsoleStatisticManager _consoleStatisticManager;
+
+    /// <summary>
+    /// конструктор, иницализирующий поля класса
+    /// </summary>
+    /// <param name="consoleStatisticManager">обработчик статистики, полученной с консоли</param>
+    public Program(IConsoleStatisticManager consoleStatisticManager)
+    {
+        _consoleStatisticManager = consoleStatisticManager;
+    }
+    
     public static void Main()
     {
-        IConsoleStatisticManager executor = new ConsoleStatisticManager();
+    }
+
+    /// <summary>
+    /// считывает команды с консоли и обрабатывает их
+    /// </summary>
+    public void ReadConsoleCommand()
+    {
         while (true) 
-            executor.Execute(Console.ReadLine());
+            _consoleStatisticManager.Execute(Console.ReadLine());
     }
 }

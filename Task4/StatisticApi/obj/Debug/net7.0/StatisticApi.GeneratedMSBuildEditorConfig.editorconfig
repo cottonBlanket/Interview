@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StatisticApi
 build_property.RootNamespace = StatisticApi
-build_property.ProjectDir = D:\git\Interview\Task4\StatisticApi\
+build_property.ProjectDir = C:\Users\User\Documents\Interview\Task4\StatisticApi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\git\Interview\Task4\StatisticApi
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\Interview\Task4\StatisticApi
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Append.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Append.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEFwcGVuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Calculate.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Calculate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXENhbGN1bGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Clear.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Clear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXENsZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Home.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEhvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Index.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Interview/Task4/StatisticApi/Views/Statistic/Message.cshtml]
+[C:/Users/User/Documents/Interview/Task4/StatisticApi/Views/Statistic/Message.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXE1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

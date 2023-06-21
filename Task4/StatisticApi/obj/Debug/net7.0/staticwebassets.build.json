@@ -1,15 +1,26 @@
 {
   "Version": 1,
-  "Hash": "JPPPquvWXSuCop0KtwX0Ogi61RiDC04W3ehb6bPXHpI=",
+  "Hash": "6RpnoRUu+zh48Cn5zMrzXqkZoNQNXOrMIyiKGypa+Q8=",
   "Source": "StatisticApi",
   "BasePath": "_content/StatisticApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj",
+      "Identity": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj",
       "Version": 2,
       "Source": "Dal",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj",
+      "Version": 2,
+      "Source": "Logic",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
@@ -22,7 +33,7 @@
     {
       "Name": "StatisticApi\\wwwroot",
       "Source": "StatisticApi",
-      "ContentRoot": "D:\\git\\Interview\\Task4\\StatisticApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\wwwroot\\",
       "BasePath": "_content/StatisticApi",
       "Pattern": "**"
     }

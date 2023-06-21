@@ -2,6 +2,11 @@
 
 namespace Dal.Base.Interfaces;
 
+/// <summary>
+/// базовый репозиторий для круд операций
+/// </summary>
+/// <typeparam name="T">тип сущности, с которой работает репозиторий</typeparam>
+/// <typeparam name="TI">тип уникального ключа сущности</typeparam>
 public interface IBaseRepository<T, TI> where T : BaseDal<TI>
 {
     /// <summary>

@@ -1,37 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj": {}
+    "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj": {}
   },
   "projects": {
-    "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj": {
+    "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
         "projectName": "ConsoleLogic",
-        "projectPath": "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
-        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\Interview\\Task4\\ConsoleLogic\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj"
+              },
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,32 +70,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj": {
+    "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\Interview\\Task4\\Dal\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -147,40 +143,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\git\\Interview\\Task4\\Logic\\Logic.csproj": {
+    "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\Interview\\Task4\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "D:\\git\\Interview\\Task4\\Logic\\Logic.csproj",
-        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\Interview\\Task4\\Logic\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj"
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj"
               }
             }
           }
@@ -213,46 +204,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\git\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj": {
+    "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj",
         "projectName": "StatisticApi",
-        "projectPath": "D:\\git\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj",
-        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\Interview\\Task4\\StatisticApi\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\StatisticApi.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\StatisticApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj": {
-                "projectPath": "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj"
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj"
               },
-              "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\git\\Interview\\Task4\\Dal\\Dal.csproj"
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Dal\\Dal.csproj"
               },
-              "D:\\git\\Interview\\Task4\\Logic\\Logic.csproj": {
-                "projectPath": "D:\\git\\Interview\\Task4\\Logic\\Logic.csproj"
+              "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Interview\\Task4\\Logic\\Logic.csproj"
               }
             }
           }
@@ -309,7 +295,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

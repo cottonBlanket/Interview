@@ -1,13 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "63yC3Jv73h5zFMrtx+TzH+gMPCgfWLFLl8Jtleg8L4ZPtanxfUXzyzq/TZTvc5Jj7w5tR8/amvA0zg/HjKfoZA==",
+  "dgSpecHash": "nHOh3I33j0+alculDVt9zOpSl96zfutm1f4aGawui3MwOVpDv2+tQ97lNtc7AyAAmMgoVUVzU0F9OlbrerObLA==",
   "success": true,
-  "projectFilePath": "D:\\git\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\Interview\\Task4\\ConsoleLogic\\ConsoleLogic.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danil\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-preview.5.23280.8\\system.configuration.configurationmanager.8.0.0-preview.5.23280.8.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-preview.5.23280.8\\system.diagnostics.eventlog.8.0.0-preview.5.23280.8.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-preview.5.23280.8\\system.security.cryptography.protecteddata.8.0.0-preview.5.23280.8.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.relational.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.caching.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.5.23280.8\\microsoft.extensions.caching.memory.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.configuration.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.5.23280.8\\microsoft.extensions.options.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.5.23280.8\\microsoft.extensions.primitives.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\npgsql\\8.0.0-preview.4\\npgsql.8.0.0-preview.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.4\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-preview.5.23280.8\\system.configuration.configurationmanager.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-preview.5.23280.8\\system.diagnostics.eventlog.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-preview.5.23280.8\\system.security.cryptography.protecteddata.8.0.0-preview.5.23280.8.nupkg.sha512"
   ],
   "logs": []
 }

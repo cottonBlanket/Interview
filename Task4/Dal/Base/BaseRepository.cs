@@ -4,11 +4,27 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Dal.Base;
 
+/// <summary>
+/// реализация базового репозитория для работы с бд
+/// </summary>
+/// <typeparam name="T">тип сущности из бд</typeparam>
+/// <typeparam name="TI">тип уникального ключа</typeparam>
 public abstract class BaseRepository<T, TI> : IBaseRepository<T, TI> where T : BaseDal<TI>
 {
+    /// <summary>
+    /// соединение с базой данных
+    /// </summary>
     protected readonly DataContext _context;
+    
+    /// <summary>
+    /// соединение с таблицой сущности, с которой работает репозиторий
+    /// </summary>
     protected readonly DbSet<T> _dbSet;
 
+    /// <summary>
+    /// конструктор инициализирующий поле соединения с базой данных
+    /// </summary>
+    /// <param name="context">соединения с базой данных</param>
     public BaseRepository(DataContext context)
     {
         _context = context;

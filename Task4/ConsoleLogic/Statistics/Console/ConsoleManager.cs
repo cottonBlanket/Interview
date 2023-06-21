@@ -1,4 +1,8 @@
-﻿using Task4.Statistics.Interfaces;
+﻿using System.Net.NetworkInformation;
+using Dal.Statistic.Repositories.Interfaces;
+using Task4.Entities;
+using Task4.Statistics.Api;
+using Task4.Statistics.Interfaces;
 
 namespace Task4.Statistics;
 
@@ -8,16 +12,16 @@ namespace Task4.Statistics;
 public class ConsoleStatisticManager: IConsoleStatisticManager
 {
     /// <summary>
-    /// поле для работы с хранилищем статистических данных
+    /// обработчик статистики
     /// </summary>
-    private readonly IStatisticData _statisticData;
+    private readonly IStatisticManager _statisticManager;
     
     /// <summary>
     /// конструктор без аргументов, инициализирующий поля
     /// </summary>
-    public ConsoleStatisticManager()
+    public ConsoleStatisticManager(IStatisticManager statisticManager)
     {
-        _statisticData = new StatisticsData();
+        _statisticManager = statisticManager;
     }
     
     /// <summary>
@@ -38,13 +42,18 @@ public class ConsoleStatisticManager: IConsoleStatisticManager
         switch (commandArray[0])
         {
             case "append":
-                response = await _statisticData.Append(key, string.Join(' ', commandArray[2..]));
+                var statistic = new Statistic()
+                {
+                    Key = key,
+                    Values = string.Join(',', commandArray[2..])
+                };
+                response = await _statisticManager.Append(statistic);
                 break;
             case "clear":
-                response = await _statisticData.Clear(key);
+                response = await _statisticManager.Clear(key);
                 break;
             case "stat":
-                response = await _statisticData.Stat(key);
+                response = await _statisticManager.Calculate(key);
                 break;
             default:
                 response = $"{commandArray[0]} - не является внутренней командой";
