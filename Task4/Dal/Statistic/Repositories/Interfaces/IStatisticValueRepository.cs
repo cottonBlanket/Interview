@@ -12,7 +12,7 @@ public interface IStatisticValueRepository: IBaseRepository<StatisticValueDal, i
     /// удаляет из бд все значения статистики по входному ключу
     /// </summary>
     /// <param name="key">ключ статистики</param>
-    public void DeleteAllByKey(StatisticKeyDal key);
+    public Task DeleteAllByKeyAsync(StatisticKeyDal key);
     
     /// <summary>
     /// возвращает список всех значений статистики по входному ключу

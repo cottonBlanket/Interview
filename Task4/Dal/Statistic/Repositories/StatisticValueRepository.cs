@@ -23,10 +23,11 @@ public class StatisticValueRepository: BaseRepository<StatisticValueDal, int>, I
     /// удаляет из бд все значения статистики по входному ключу
     /// </summary>
     /// <param name="key">ключ статистики</param>
-    public void DeleteAllByKey(StatisticKeyDal key)
+    public async Task DeleteAllByKeyAsync(StatisticKeyDal key)
     {
         var valuesByKey = GetAllByKey(key);
         _dbSet.RemoveRange(valuesByKey);
+        await _context.SaveChangesAsync();
     }
 
     /// <summary>

@@ -16,115 +16,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a978c284-f204-466c-bf63-72e00b05cd78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Interview/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/Debug/net6.0/Task1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/Task1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/Task1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/Task1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/Task1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/project.packagespec.json" afterDir="false" />
+    <list default="true" id="a978c284-f204-466c-bf63-72e00b05cd78" name="Changes" comment="Task4 Stage4 FinalVersion">
+      <change afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/enums/CountingMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Changer.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Interview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interview/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/net6.0/Task2.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Task2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Task2.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Task2.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Task2.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/ConsoleLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/ConsoleLogic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/Statistics/Console/ConsoleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/Statistics/Console/ConsoleManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/StatisticsData/Interfaces/IStatisticData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/StatisticsData/Interfaces/IStatisticData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/StatisticsData/StatisticsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/StatisticsData/StatisticsData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/ConsoleLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/ConsoleLogic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/ConsoleLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/ConsoleLogic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/ConsoleLogic.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/bin/Debug/net7.0/Logic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ConsoleLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ref/ConsoleLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/ref/ConsoleLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/refint/ConsoleLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/Debug/net7.0/refint/ConsoleLogic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/ConsoleLogic/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Base/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Base/BaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Base/Entities/BaseDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Base/Entities/BaseDal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Base/Interfaces/IBaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Base/Interfaces/IBaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/DataContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Entities/StatisticKeyDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Entities/StatisticKeyDal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Entities/StatisticValueDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Entities/StatisticValueDal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/Interfaces/IStatisticKeyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/Interfaces/IStatisticKeyRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/Interfaces/IStatisticValueRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/Interfaces/IStatisticValueRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/StatisticKeyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/StatisticKeyRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/StatisticValueRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/StatisticValueRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Dal.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Dal.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Dal.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Dal.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/ref/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/ref/Dal.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/refint/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/Debug/net7.0/refint/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Dal/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/Interfaces/IStatisticManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/Interfaces/IStatisticManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/dto/request/Statistic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/Managers/Statistic/dto/request/Statistic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/bin/Debug/net7.0/Logic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Logic.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Logic.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Logic.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Logic.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/Logic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/ref/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/ref/Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/refint/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/Debug/net7.0/refint/Logic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/Logic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Logic/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Controllers/Public/Main/StatisticController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Controllers/Public/Main/StatisticController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/StatisticApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/StatisticApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Append.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Append.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Calculate.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Calculate.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Clear.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Clear.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/Views/Statistic/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/ConsoleLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/ConsoleLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/ConsoleLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/ConsoleLogic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/Logic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/StatisticApi.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/app.config" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/app.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/StatisticApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/ref/StatisticApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/ref/StatisticApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/refint/StatisticApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/refint/StatisticApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/StatisticApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/StatisticApi.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/StatisticApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/StatisticApi.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task4/StatisticApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/StatisticApi/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,9 +97,13 @@
       </map>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/Documents/Interview/Task4/Dal/Statistic/Repositories/Interfaces/IStatisticValueRepository.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2RW8zZVI9ZiIIORoBnV1kWK3yBo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -334,13 +296,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687354756301</updated>
-      <workItem from="1687354757606" duration="11161000" />
+      <workItem from="1687354757606" duration="22476000" />
     </task>
+    <task id="LOCAL-00001" summary="Task4 Stage4 FinalVersion">
+      <created>1687380581392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687380581392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -354,45 +325,47 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Task4 Stage4 FinalVersion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task4 Stage4 FinalVersion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
-          <line>45</line>
+          <line>53</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="39" containingFunctionPresentation="Method 'Append'">
             <startOffsets>
-              <option value="1790" />
+              <option value="2107" />
             </startOffsets>
             <endOffsets>
-              <option value="1829" />
+              <option value="2146" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
-          <line>68</line>
+          <line>77</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="57" containingFunctionPresentation="Method 'Clear'">
             <startOffsets>
-              <option value="2664" />
+              <option value="3035" />
             </startOffsets>
             <endOffsets>
-              <option value="2665" />
+              <option value="3036" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
-          <line>84</line>
+          <line>95</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="71" containingFunctionPresentation="Method 'Calculate'">
             <startOffsets>
-              <option value="3356" />
+              <option value="3864" />
             </startOffsets>
             <endOffsets>
-              <option value="3357" />
+              <option value="3865" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -425,39 +398,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
-          <line>41</line>
+          <line>48</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="35" containingFunctionPresentation="Method 'Append'">
             <startOffsets>
-              <option value="1645" />
+              <option value="1910" />
             </startOffsets>
             <endOffsets>
-              <option value="1646" />
+              <option value="1911" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/ConsoleLogic/Statistics/Console/ConsoleManager.cs</url>
-          <line>41</line>
+          <line>48</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\ConsoleLogic\Statistics\Console\ConsoleManager.cs" initialLine="41" containingFunctionPresentation="Method 'Execute'">
             <startOffsets>
-              <option value="1324" />
+              <option value="1508" />
             </startOffsets>
             <endOffsets>
-              <option value="1348" />
+              <option value="1509" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
-          <line>57</line>
+          <line>66</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="48" containingFunctionPresentation="Method 'Append'">
             <startOffsets>
-              <option value="2216" />
+              <option value="2587" />
             </startOffsets>
             <endOffsets>
-              <option value="2243" />
+              <option value="2614" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
@@ -465,54 +438,67 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/ConsoleLogic/Statistics/Console/ConsoleManager.cs</url>
           <line>50</line>
-          <properties documentPath="C:\Users\User\Documents\Interview\Task4\ConsoleLogic\Statistics\Console\ConsoleManager.cs" initialLine="50" containingFunctionPresentation="Method 'Execute'">
-            <startOffsets>
-              <option value="1653" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1659" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Task4/ConsoleLogic/Statistics/Console/ConsoleManager.cs</url>
-          <line>61</line>
           <properties documentPath="C:\Users\User\Documents\Interview\Task4\ConsoleLogic\Statistics\Console\ConsoleManager.cs" initialLine="61" containingFunctionPresentation="Method 'Execute'">
             <startOffsets>
-              <option value="2032" />
+              <option value="1580" />
             </startOffsets>
             <endOffsets>
-              <option value="2060" />
+              <option value="1608" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Task4/ConsoleLogic/Program.cs</url>
-          <line>33</line>
-          <properties documentPath="C:\Users\User\Documents\Interview\Task4\ConsoleLogic\Program.cs" initialLine="27" containingFunctionPresentation="Method 'ReadConsoleCommand'">
+          <url>file://$PROJECT_DIR$/Task4/StatisticApi/Controllers/Public/Main/StatisticController.cs</url>
+          <line>129</line>
+          <properties documentPath="C:\Users\User\Documents\Interview\Task4\StatisticApi\Controllers\Public\Main\StatisticController.cs" initialLine="120" containingFunctionPresentation="Method 'Changer'">
             <startOffsets>
-              <option value="880" />
+              <option value="4492" />
             </startOffsets>
             <endOffsets>
-              <option value="881" />
+              <option value="4493" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Task4/StatisticApi/Program.cs</url>
-          <line>43</line>
-          <properties documentPath="C:\Users\User\Documents\Interview\Task4\StatisticApi\Program.cs" initialLine="43" containingFunctionPresentation="">
+          <url>file://$PROJECT_DIR$/Task4/Dal/Statistic/Repositories/StatisticValueRepository.cs</url>
+          <line>27</line>
+          <properties documentPath="C:\Users\User\Documents\Interview\Task4\Dal\Statistic\Repositories\StatisticValueRepository.cs" initialLine="27" containingFunctionPresentation="Method 'DeleteAllByKey'">
             <startOffsets>
-              <option value="1489" />
+              <option value="850" />
             </startOffsets>
             <endOffsets>
-              <option value="1562" />
+              <option value="885" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
+          <line>100</line>
+          <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="95" containingFunctionPresentation="Method 'Calculate'">
+            <startOffsets>
+              <option value="4084" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4149" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Task4/Logic/Managers/Statistic/StatisticManager.cs</url>
+          <line>119</line>
+          <properties documentPath="C:\Users\User\Documents\Interview\Task4\Logic\Managers\Statistic\StatisticManager.cs" initialLine="107" containingFunctionPresentation="Method 'ChangeMethod'">
+            <startOffsets>
+              <option value="4997" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5072" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

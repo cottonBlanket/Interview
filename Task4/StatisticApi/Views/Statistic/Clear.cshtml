@@ -5,7 +5,10 @@
 <h2>Страница очистки</h2>
 <form method="post">
     <div class="text_input">
-        <input type="text" value="ключ" asp-for="@Model.Key" name="Key" id="Key" class="input"/>
+        <p>
+        <label>Ключ</label>
+        <input type="text" asp-for="@Model.Key" name="Key" id="Key" class="input"/>
+        </p>
     </div>
     <div class="form-button">
         <input type="submit" value="Очистить" class="button"/>

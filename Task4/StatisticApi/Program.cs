@@ -41,21 +41,18 @@ app.UseRouting();
 
 // проверка на необходимость обновления базы данных
 //указывается в appsettings.json
-if (bool.Parse(builder.Configuration.GetSection("UpdateDatabase").Value))
+//ПОСЛЕ ПЕРВОГО ЗАПУСКА ПРИЛОЖЕНИЯ РЕКОМЕНДУЕТСЯ УКАЗАТЬ false 
+//ИНАЧЕ ПРИ ПЕРЕЗАПУСКЕ ВСЕ ДАННЫЕ УДАЛЯТСЯ
+if (bool.Parse(builder.Configuration.GetSection("UpdateDatabase")?.Value))
 {
-    using (var scope = 
-           app.Services.CreateScope())
-    using (var context = scope.ServiceProvider.GetService<DataContext>())
-    {
-        context.Database.EnsureDeleted();
-        context.Database.EnsureCreated();
-    }
+    var context = app.Services.GetService<DataContext>();
+    context.Database.EnsureDeleted();
+    context.Database.EnsureCreated();
 }
-
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Statistic}/{action=Home}");
 
 //инициализация потоков для приложения обработки запросов и конмольного приложения
 var api = new Thread(app.Run);

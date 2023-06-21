@@ -109,6 +109,29 @@ public class StatisticController : Controller
         var response = await _statisticManager.Calculate(request.Key);
         return View("Message", new MessageResponse() {Message = response});
     }
+    
+    /// <summary>
+    /// обрабатывает запрос на получение страницы для управления методами подсчета
+    /// </summary>
+    /// <returns>страница для управления методами подсчета</returns>
+    [HttpGet]
+    public IActionResult Changer()
+    {
+        return View(new KeyValuePairRequest());
+    }
+    
+    /// <summary>
+    /// обрабатывает запрос на изменение метода подсчета по ключу
+    /// </summary>
+    /// <param name="request">тело запроса - ключ и новый метод</param>
+    /// <returns>страница с отображением сообщения, содержащее информацию о совершенных действиях в системе статистикой</returns>
+    [HttpPost]
+    public async Task<IActionResult> Changer(KeyValuePairRequest request)
+    {
+        var statistic = _mapper.Map<Statistic>(request);
+        var response = await _statisticManager.ChangeMethod(statistic);
+        return View("Message", new MessageResponse() {Message = response});
+    }
 
     /// <summary>
     /// обрабатывает запрос на получение страницы, содержащее входное сообщение

@@ -1,0 +1,25 @@
+@using StatisticApi.Controllers.dto.request
+@using Task4.Statistics.Api.enums
+@model StatisticApi.Controllers.dto.request.KeyValuePairRequest;
+@{
+    Layout = "Index";
+}
+<h2>Страница подсчета</h2>
+@using (Html.BeginForm("Changer", "Statistic", FormMethod.Post))
+{
+    <div class="text_input">
+        <p>
+            <label>Ключ</label>
+            <input type="text" asp-for="@Model.Key" name="Key" id="Key" class="input"/>
+        </p>
+        <p>
+            <label>Выберите метод</label>
+            @Html.DropDownListFor(x => x.Values,
+                Html.GetEnumSelectList(typeof(CountingMethod)),
+                new { @class = "input", @style = "height:32px" })
+        </p>
+    </div>
+    <div class="form-button">
+        <input type="submit" value="Отправить" class="button"/>
+    </div>
+}

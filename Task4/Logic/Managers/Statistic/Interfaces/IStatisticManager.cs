@@ -27,4 +27,11 @@ public interface IStatisticManager
     /// <param name="key">ключ</param>
     /// <returns>асинхронная задача, возвращающая сообщение, информирующее о проделанных действиях</returns>
     public Task<string> Calculate(string key);
+
+    /// <summary>
+    /// изменяет метод для подсчета значений статистики
+    /// </summary>
+    /// <param name="statistic">новые данные</param>
+    /// <returns>асинхронное действие, возвращающее сообщение</returns>
+    public Task<string> ChangeMethod(Statistic statistic);
 }

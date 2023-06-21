@@ -15,7 +15,16 @@ public class ConsoleStatisticManager: IConsoleStatisticManager
     /// обработчик статистики
     /// </summary>
     private readonly IStatisticManager _statisticManager;
-    
+
+    /// <summary>
+    /// словарь консольных названий методов подсчета к значениям енамо
+    /// </summary>
+    private static readonly Dictionary<string, string> MethodNames = new()
+    {
+        { "avg", "0" },
+        { "sum", "1" }
+    };
+
     /// <summary>
     /// конструктор без аргументов, инициализирующий поля
     /// </summary>
@@ -37,29 +46,38 @@ public class ConsoleStatisticManager: IConsoleStatisticManager
         var commandArray = command.Split(' ').Where(x => x != "").ToArray();
         if(!IsCommandValid(commandArray))
             return;
+        var response = await GetResponseFromCommand(commandArray);
+        
+        Console.WriteLine(response);
+        Console.ResetColor();
+    }
+
+    /// <summary>
+    /// определяет введенную команду, обрабатывает её, возвращает сообщение от обработчика
+    /// </summary>
+    /// <param name="commandArray">команда в виде массива</param>
+    /// <returns>сообщение</returns>
+    private async Task<string> GetResponseFromCommand(string[] commandArray)
+    {
         var key = commandArray[1];
-        string response;
         switch (commandArray[0])
         {
             case "append":
-                var statistic = new Statistic()
-                {
-                    Key = key,
-                    Values = string.Join(',', commandArray[2..])
-                };
-                response = await _statisticManager.Append(statistic);
-                break;
+                var statistic = new Statistic(key, string.Join(',', commandArray[2..]));
+                return await _statisticManager.Append(statistic);
             case "clear":
-                response = await _statisticManager.Clear(key);
-                break;
+                return await _statisticManager.Clear(key);
             case "stat":
-                response = await _statisticManager.Calculate(key);
-                break;
+                return await _statisticManager.Calculate(key);
+            case "change-method":
+                if (commandArray.Length != 3 || !MethodNames.ContainsKey(commandArray[2]))
+                    return "Введена не корректная строка!";
+                var statForChanger = new Statistic(key, MethodNames[commandArray[2]]);
+                return await _statisticManager.ChangeMethod(statForChanger);
             default:
-                response = $"{commandArray[0]} - не является внутренней командой";
-                break;
+                Console.ForegroundColor = ConsoleColor.Red;
+                return $"{commandArray[0]} - не является внутренней командой";
         }
-        Console.WriteLine(response);
     }
 
     /// <summary>
@@ -71,7 +89,9 @@ public class ConsoleStatisticManager: IConsoleStatisticManager
     {
         if (command.Length < 2)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Введена не корректная строка!");
+            Console.ResetColor();
             return false;
         }
         return true;

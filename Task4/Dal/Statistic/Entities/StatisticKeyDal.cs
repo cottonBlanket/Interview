@@ -1,4 +1,5 @@
 ﻿using Dal.Base.Entities;
+using Task4.Statistics.Api.enums;
 
 namespace Dal.Statistic.Entities;
 
@@ -11,4 +12,9 @@ public class StatisticKeyDal: BaseDal<int>
     /// значение ключа
     /// </summary>
     public string StatisticKey { get; set; }
+    
+    /// <summary>
+    /// метод подсчета значения по ключу
+    /// </summary>
+    public  CountingMethod CountingMethod { get; set; }
 }
